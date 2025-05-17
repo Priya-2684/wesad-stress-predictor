@@ -43,11 +43,11 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # --- Title ---
-st.title("🤖 Stress Prediction Using WESAD (S11)")
+st.title("🤖 Stress Prediction Using ML")
 
 # --- Download and load data & model training (only once) ---
 FILE_ID = "1xQT5B7gjBUWagFw96KOOJV4B8X5dIPCn"
-FILE_NAME = "S11.pkl"
+FILE_NAME = "S4.pkl"
 
 if not os.path.exists(FILE_NAME):
     url = f"https://drive.google.com/uc?id={FILE_ID}"
