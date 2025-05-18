@@ -13,7 +13,7 @@ from xgboost import XGBClassifier
 st.set_page_config(page_title="Stress Prediction", layout="centered")
 
 # --- Logo ---
-st.image("Logo.png", width=100)
+st.image("Logo.jpg", width=100)
 
 # --- Custom CSS for Background and Fonts ---
 st.markdown("""
